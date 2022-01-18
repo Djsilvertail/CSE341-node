@@ -1,20 +1,40 @@
 {
-  "name": "cse341-jan2022",
-  "version": "1.0.0",
-  "description": "This application was originally a barebones template of [node-js-getting-started](https://github.com/heroku/node-js-getting-started) provided by Heroku. It has been revised to accomodate the needs of students taking the CSE341 course at BYU-Idaho.",
+  "name": "js-getting-started",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "12.x"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "test": "node test.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.1",
-    "ejs": "^3.1.6",
+    "ejs": "^2.7.4",
     "express": "^4.17.2",
-    "express-handlebars": "^6.0.2",
+    "express-handlebars": "^3.1.0",
     "nodemon": "^2.0.15",
-    "pug": "^3.0.2"
-  }
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heroku/node-js-getting-started.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heroku/node-js-getting-started/issues"
+  },
+  "homepage": "https://github.com/heroku/node-js-getting-started#readme",
+  "author": ""
 }
