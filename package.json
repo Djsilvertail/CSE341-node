@@ -15,8 +15,9 @@
     "ejs": "^2.7.4",
     "express": "^4.17.2",
     "express-handlebars": "^3.1.0",
+    "node-fetch": "^3.1.1",
     "nodemon": "^2.0.15",
-    "pug": "^2.0.4"
+    "pug": "^3.0.2"
   },
   "devDependencies": {
     "request": "^2.81.0",
@@ -36,5 +37,5 @@
     "url": "https://github.com/heroku/node-js-getting-started/issues"
   },
   "homepage": "https://github.com/heroku/node-js-getting-started#readme",
-  "author": ""
+  "author": "Dana Llewellyn"
 }
